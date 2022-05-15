@@ -1,25 +1,25 @@
 theme = "ananke"
 relativeURLs = true
 baseURL = "/"
-title = "Roger Souza"
-author = "Roger Souza"
-copyright = "Copyright © 2022; all rights reserved."
-paginate = 5
-languageCode = "pt-br"
-DefaultContentLanguage = "pt-br"
+title = "Hugo Themes"
+author = "Steve Francia"
+copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
+paginate = 3
+languageCode = "en"
+DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 
 [menu]
 
   [[menu.main]]
     identifier = "home"
-    name = "Início"
+    name = "Home"
     url = "/"
     weight = 1
   [[menu.main]]
     identifier = "about"
-    name = "Sobre Mim"
-    url = "/sobre-mim/"
+    name = "About"
+    url = "/about/"
     weight = 10
 
 [taxonomies]
@@ -30,7 +30,7 @@ series = "series"
 [privacy]
 
   [privacy.vimeo]
-    disabled = true
+    disabled = false
     simple = true
 
   [privacy.twitter]
