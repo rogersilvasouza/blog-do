@@ -1,4 +1,4 @@
-theme = "terminal"
+theme = "ananke"
 relativeURLs = true
 baseURL = "/"
 title = "Hugo Themes"
